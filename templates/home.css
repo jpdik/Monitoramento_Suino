@@ -2,6 +2,10 @@ body {
 	font-size: 16px;
 	font-family: Arial, Helvetica, Tahoma, Verdana;
 	background-image: url('https://rawgit.com/jpdik/Monitoramento_Suino/master/img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+	background-size: 100% 100%;
 	color: white;
 }
 
