@@ -18,7 +18,7 @@
 			<br /><br />
 			<div id="lista" class="list-group">
 			{% for i in arquivos %}
-			  	<a href="{{ i['path'].split('/')[-1] }}" class="list-group-item">{{ i['path'].split('/')[-1] }}</a>
+			  	<a href="{{ i['path'].split('/')[-1] }}" class="list-group-item">{{ i['path'].split('/')[-1].split('.')[0] }}</a>
 			{% endfor %}
 			</div>
 			<br /><br />
