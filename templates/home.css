@@ -1,7 +1,8 @@
 body {
 	font-size: 16px;
 	font-family: Arial, Helvetica, Tahoma, Verdana;
-	background-image: url('https://rawgit.com/jpdik/Monitoramento_Suino/master/img/background.jpg')
+	background-image: url('https://rawgit.com/jpdik/Monitoramento_Suino/master/img/background.jpg');
+	color: white;
 }
 
 h1 {
@@ -38,4 +39,19 @@ footer {
 
 footer a{
 	text-decoration: none;
+}
+
+#lista{
+	text-align: center;
+	font-weight: bold;
+	margin: 0 40%;
+	color: black;
+}
+
+a.list-group-item{
+	background-color: rgba(214, 214, 214, 0.39);
+}
+
+a.list-group-item:hover{
+	background-color: rgba(253, 253, 253, 0.59);
 }

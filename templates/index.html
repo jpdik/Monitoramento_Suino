@@ -16,11 +16,11 @@
 
 		<form method="post" action=none>
 			<br /><br />
-			<ul id="arquivos">
+			<div id="lista" class="list-group">
 			{% for i in arquivos %}
-			  	<li><a href="{{ i['path'].split('/')[-1] }}">{{ i['path'].split('/')[-1] }}</a></li>
+			  	<a href="{{ i['path'].split('/')[-1] }}" class="list-group-item">{{ i['path'].split('/')[-1] }}</a>
 			{% endfor %}
-			</ul>
+			</div>
 			<br /><br />
 		</form>
 	</body>
