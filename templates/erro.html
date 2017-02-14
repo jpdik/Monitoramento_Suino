@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Erro</title>
+	</head>
+<body>
+	<h1>Dir Shared ({{ nome }})</h1>
+
+	<h2>Erro: {{ erro }} </h1>
+
+	<form onsubmit="return voltar()">
+		<button type="submit">Voltar</button>
+	</form>
+	<script type="text/javascript">
+		document.getElementById('campo').innerHTML = window.location.href;
+		function voltar() {
+			window.location.href = window.location.href.substring(0, window.location.href.lastIndexOf('/'));
+			return false;
+		}
+	</script>
+</body>
+</html>

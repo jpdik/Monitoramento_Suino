@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://rawgit.com/jpdik/DirShared/master/templates/home.css" />
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>Monitoramento gases Suino</title>
+	</head>
+	<body>
+		<h1>Monitoramento gases Suino</h1>
+		
+		<div id="intro">
+			<div id="texto">
+				Selecione uma das datas para ver os dados.<br/>
+			</div>
+		</div>
+
+		<form method="post" action=none>
+			<br /><br />
+			<ul id="arquivos">
+			{% for i in arquivos %}
+			  	<li><a href="{{ i['path'].split('/')[-1] }}">{{ i['path'].split('/')[-1] }}</a></li>
+			{% endfor %}
+			</ul>
+			<br /><br />
+		</form>
+	</body>
+	<footer>
+		Criado por <a href="https://www.facebook.com/jpdik">João Paulo de Melo</a>
+	</footer>
+</html>
