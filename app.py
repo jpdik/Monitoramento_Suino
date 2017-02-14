@@ -57,7 +57,7 @@ def exibirArquivo(nome):
       return csv
     except dropbox.rest.ErrorResponse as err:
       template = env.get_template('erro.html')
-      return template.render(erro='O arquivo foi movido ou removido.',nome=nome_diretorio)
+      return template.render(erro='O arquivo foi movido ou removido.',nome=nome)
 
 if __name__ == "__main__":
   app.run(debug=True)
