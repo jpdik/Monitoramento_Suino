@@ -29,14 +29,13 @@ body {
 }
 
 table{
+	position: center;
 	background-color:ffffff; 
    	border-style:solid; 
    	border-color:666666; 
    	border-width:1px; 
-   	float: left;
-   	width: 250px;
+   	width: 25%;
    	text-align: center;
-   	margin-left: 25%;
 }
 
 .tabelaResultado{
