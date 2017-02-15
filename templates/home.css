@@ -38,8 +38,8 @@ h1 {
 }
 
 footer {
-	position:absolute;
-	bottom: 2%;
+	position: fixed;
+	bottom: 5%;
 	padding-left: 80%;
 }
 
