@@ -9,7 +9,7 @@ from flask import request
 
 app = Flask(__name__)
 
-TOKEN = 'clRIL4yey9UAAAAAAAAIU64daZXrSn5UG4ACrkNEaJP7v0gA5qtvdx47--9mVuYp'
+TOKEN = 'YOUR_TOKEN_HERE'
 
 #NOT_ALLOWED_EXTENSIONS = set(['mp3', 'wma', 'wav', 'm4a', 'mov', 'avi', 'mpg', 'mpeg', 'ogg'])
 
